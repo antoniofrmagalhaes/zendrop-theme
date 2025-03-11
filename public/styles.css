@@ -25,7 +25,20 @@ body {
     opacity: 0;
 }
 
+.announcement-bar.hidden {
+    opacity       : 0;
+    pointer-events: none;
+}
+
 .header {
+    display       : flex;
+    flex-direction: column;
+    position      : sticky;
+    top           : 0;
+    z-index       : 999;
+}
+
+.top-header {
     display         : flex;
     justify-content : space-between;
     align-items     : center;

@@ -29,6 +29,14 @@ document.addEventListener("DOMContentLoaded", function () {
     startInterval();
   });
 
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 50) {
+      announcementBar.classList.add("hidden");
+    } else {
+      announcementBar.classList.remove("hidden");
+    }
+  });
+
   fetch("/settings.json")
     .then((response) => response.json())
     .then((data) => {
