@@ -1,0 +1,424 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family     : Montserrat, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.announcement-bar {
+    background-color: white;
+    color           : black;
+    text-align      : center;
+    padding         : 8px 0;
+    font-weight     : bold;
+    font-size       : 14px;
+}
+
+.header {
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    background-color: #05234B;
+    padding         : 15px 50px;
+}
+
+.logo-placeholder {
+    width           : 160px;
+    height          : 90px;
+    background-color: white;
+}
+
+.search-bar {
+    display         : flex;
+    align-items     : center;
+    background-color: white;
+    border-radius   : 4px;
+    padding         : 5px;
+    width           : 50%;
+}
+
+.search-bar input {
+    border   : none;
+    outline  : none;
+    flex     : 1;
+    padding  : 10px;
+    font-size: 16px;
+    color    : #333;
+}
+
+.search-bar button {
+    background: none;
+    border    : none;
+    cursor    : pointer;
+    padding   : 5px;
+}
+
+.search-bar svg {
+    width : 20px;
+    height: 20px;
+    color : #666;
+}
+
+.user-cart {
+    display    : flex;
+    align-items: center;
+    gap        : 20px;
+}
+
+.login {
+    display    : flex;
+    align-items: center;
+    gap        : 8px;
+    color      : white;
+}
+
+.login svg {
+    width : 28px;
+    height: 28px;
+}
+
+.login-text a {
+    display        : flex;
+    flex-direction : column;
+    text-decoration: none;
+    color          : white;
+    font-size      : 12px;
+    font-weight    : bold;
+}
+
+.login-text span {
+    white-space: nowrap;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+.cart {
+    .nav-bar {
+        display         : flex;
+        align-items     : center;
+        background-color: white;
+        padding         : 10px 50px;
+        border-top      : 1px solid #ccc;
+    }
+
+    .nav-categories {
+        display    : flex;
+        align-items: center;
+        gap        : 8px;
+        font-size  : 14px;
+        font-weight: bold;
+        cursor     : pointer;
+    }
+
+    .nav-categories svg {
+        width : 18px;
+        height: 18px;
+    }
+
+    .nav-links {
+        display    : flex;
+        list-style : none;
+        margin-left: 20px;
+        gap        : 25px;
+    }
+
+    .nav-links li a {
+        text-decoration: none;
+        color          : black;
+        font-size      : 14px;
+        font-weight    : bold;
+        text-transform : uppercase;
+    }
+
+    cursor  : pointer;
+    position: relative;
+}
+
+.cart svg {
+    width : 22px;
+    height: 22px;
+    color : white;
+}
+
+.cart-badge {
+    position        : absolute;
+    top             : -5px;
+    right           : -5px;
+    background-color: #FF4500;
+    color           : white;
+    font-size       : 12px;
+    font-weight     : bold;
+    width           : 18px;
+    height          : 18px;
+    text-align      : center;
+    border-radius   : 50%;
+}
+
+.logo-container img {
+    width : 160px;
+    height: auto;
+}
+
+.nav-bar {
+    display         : flex;
+    align-items     : center;
+    background-color: white;
+    padding         : 10px 50px;
+    border-top      : 1px solid #ccc;
+}
+
+.nav-categories {
+    display    : flex;
+    align-items: center;
+    gap        : 8px;
+    font-size  : 12px;
+    font-weight: 400;
+    cursor     : pointer;
+}
+
+.nav-categories svg {
+    width : 18px;
+    height: 18px;
+}
+
+.divider {
+    width           : 1px;
+    height          : 18px;
+    background-color: #ccc;
+    margin          : 0 15px;
+}
+
+.banner {
+    width           : 100%;
+    height          : 700px;
+    object-fit      : contain;
+    background-color: black;
+}
+
+.nav-links {
+    display    : flex;
+    list-style : none;
+    margin-left: 20px;
+    gap        : 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color          : black;
+    font-size      : 12px;
+    font-weight    : 400;
+    text-transform : uppercase;
+}
+
+.container {
+    max-width: 1285px;
+    margin   : 0 auto;
+    padding  : 20px;
+}
+
+.section-title {
+    font-size    : 24px;
+    font-weight  : bold;
+    margin-bottom: 15px;
+}
+
+.product-grid {
+    display              : grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap                  : 15px;
+}
+
+.product-card {
+    background   : white;
+    border-radius: 8px;
+    padding      : 15px;
+    box-shadow   : 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width        : 100%;
+    border-radius: 5px;
+}
+
+.product-card p {
+    font-size: 14px;
+    margin   : 10px 0;
+}
+
+.price {
+    font-size  : 16px;
+    font-weight: bold;
+}
+
+.newsletter {
+    background-color: #333;
+    color           : white;
+    text-align      : center;
+    padding         : 40px 20px;
+}
+
+.newsletter h2 {
+    font-size    : 24px;
+    font-weight  : bold;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-size    : 16px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display        : flex;
+    justify-content: center;
+    gap            : 10px;
+}
+
+.newsletter-form input {
+    width        : 300px;
+    padding      : 10px;
+    border       : none;
+    border-radius: 4px;
+    font-size    : 16px;
+    background   : #666;
+    color        : white;
+}
+
+.newsletter-form input::placeholder {
+    color: #ccc;
+}
+
+.newsletter-form button {
+    padding      : 10px 20px;
+    background   : white;
+    color        : black;
+    border       : none;
+    border-radius: 4px;
+    font-weight  : bold;
+    cursor       : pointer;
+}
+
+.newsletter-form button:hover {
+    background: #f4f4f4;
+}
+
+.footer {
+    background-color: #05234B;
+    color           : white;
+    padding         : 40px 0 0;
+}
+
+.footer-container {
+    display        : flex;
+    justify-content: space-between;
+    max-width      : 1285px;
+    margin         : 0 auto;
+    flex-wrap      : wrap;
+}
+
+.footer-column {
+    flex     : 1;
+    min-width: 200px;
+}
+
+.footer-column h3 {
+    font-size     : 14px;
+    font-weight   : bold;
+    margin-bottom : 15px;
+    text-transform: uppercase;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding   : 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color          : white;
+    font-size      : 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-newsletter-form {
+    display: flex;
+    gap    : 10px;
+}
+
+.footer-newsletter-form input {
+    width        : 250px;
+    padding      : 10px;
+    border       : none;
+    border-radius: 4px;
+    font-size    : 14px;
+    background   : #1b3a6d;
+    color        : white;
+}
+
+.footer-newsletter-form input::placeholder {
+    color: #ccc;
+}
+
+.footer-newsletter-form button {
+    padding      : 10px 15px;
+    background   : white;
+    color        : black;
+    border       : none;
+    border-radius: 4px;
+    font-weight  : bold;
+    cursor       : pointer;
+}
+
+.footer-newsletter-form button:hover {
+    background: #f4f4f4;
+}
+
+.footer-bottom {
+    text-align      : center;
+    padding         : 15px 0;
+    margin-top      : 40px;
+    background-color: #031b3e;
+    font-size       : 14px;
+}
+
+.floating-buttons {
+    position      : fixed;
+    bottom        : 24px;
+    right         : 24px;
+    display       : flex;
+    gap           : 10px;
+}
+
+.whatsapp-button, .scroll-top svg {
+    color: white;
+}
+
+.whatsapp-button,
+.scroll-top {
+    width           : 50px;
+    height          : 50px;
+    background-color: #25d366;
+    border          : none;
+    border-radius   : 50%;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    cursor          : pointer;
+}
+
+.scroll-top {
+    background-color: #004085;
+}
