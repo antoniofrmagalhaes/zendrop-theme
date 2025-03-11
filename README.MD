@@ -23,7 +23,7 @@ A ideia é validar o conceito visual antes de desenvolver um **tema funcional pa
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/anroniofrmagalhaes/zendrop-theme.git
+   git clone https://github.com/antoniofrmagalhaes/zendrop-theme.git
    cd zendrop-theme
    ```
 2. Instale as dependências:
