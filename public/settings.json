@@ -1,0 +1,10 @@
+{
+    "announcementBar": {
+        "messages": [
+            "FRETE GRÁTIS PARA TODO O BRASIL / DESCONTO DE 4% NO PIX",
+            "COMPRE AGORA E PAGUE EM ATÉ 12X SEM JUROS",
+            "APROVEITE 10% DE DESCONTO NA PRIMEIRA COMPRA!"
+        ],
+        "interval": 2000
+    }
+}

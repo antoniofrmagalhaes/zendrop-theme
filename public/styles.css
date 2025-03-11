@@ -14,8 +14,15 @@ body {
     color           : black;
     text-align      : center;
     padding         : 8px 0;
-    font-weight     : bold;
+    font-weight     : 300;
     font-size       : 14px;
+    cursor          : pointer;
+    opacity         : 1;
+    transition      : opacity 0.5s ease-in-out;
+}
+
+.announcement-bar.fade-out {
+    opacity: 0;
 }
 
 .header {
@@ -395,14 +402,15 @@ body {
 }
 
 .floating-buttons {
-    position      : fixed;
-    bottom        : 24px;
-    right         : 24px;
-    display       : flex;
-    gap           : 10px;
+    position: fixed;
+    bottom  : 24px;
+    right   : 24px;
+    display : flex;
+    gap     : 10px;
 }
 
-.whatsapp-button, .scroll-top svg {
+.whatsapp-button,
+.scroll-top svg {
     color: white;
 }
 
