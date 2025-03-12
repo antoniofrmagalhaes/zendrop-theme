@@ -1,0 +1,132 @@
+.header {
+    display       : flex;
+    flex-direction: column;
+    position      : sticky;
+    top           : 0;
+    z-index       : 999;
+}
+
+.top-header {
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    background-color: #05234B;
+    padding         : 15px 50px;
+}
+
+.logo-placeholder {
+    width           : 160px;
+    height          : 90px;
+    background-color: white;
+}
+
+.search-bar {
+    display         : flex;
+    align-items     : center;
+    background-color: white;
+    border-radius   : 4px;
+    padding         : 5px;
+    width           : 50%;
+}
+
+.search-bar input {
+    border   : none;
+    outline  : none;
+    flex     : 1;
+    padding  : 10px;
+    font-size: 16px;
+    color    : #333;
+}
+
+.search-bar button {
+    background: none;
+    border    : none;
+    cursor    : pointer;
+    padding   : 5px;
+}
+
+.search-bar svg {
+    width : 20px;
+    height: 20px;
+    color : #666;
+}
+
+.user-cart {
+    display    : flex;
+    align-items: center;
+    gap        : 20px;
+}
+
+.login {
+    display    : flex;
+    align-items: center;
+    gap        : 8px;
+    color      : white;
+}
+
+.login svg {
+    width : 28px;
+    height: 28px;
+}
+
+.login-text a {
+    display        : flex;
+    flex-direction : column;
+    text-decoration: none;
+    color          : white;
+    font-size      : 12px;
+    font-weight    : bold;
+}
+
+.login-text span {
+    white-space: nowrap;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+/* Navegação interna do header */
+.nav-bar {
+    display         : flex;
+    align-items     : center;
+    background-color: white;
+    padding         : 10px 50px;
+    border-top      : 1px solid #ccc;
+}
+
+.nav-categories {
+    display    : flex;
+    align-items: center;
+    gap        : 8px;
+    font-size  : 12px;
+    font-weight: 400;
+    cursor     : pointer;
+}
+
+.nav-categories svg {
+    width : 18px;
+    height: 18px;
+}
+
+.nav-links {
+    display    : flex;
+    list-style : none;
+    margin-left: 20px;
+    gap        : 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color          : black;
+    font-size      : 12px;
+    font-weight    : 400;
+    text-transform : uppercase;
+}
+
+.divider {
+    width           : 1px;
+    height          : 18px;
+    background-color: #ccc;
+    margin          : 0 15px;
+}
